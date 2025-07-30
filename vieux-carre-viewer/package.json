@@ -1,0 +1,35 @@
+{
+  "name": "vieux-carre-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "react-router-dom": "*",
+    "@tanstack/react-query": "*",
+    "leaflet": "*",
+    "react-leaflet": "*",
+    "three": "*",
+    "@react-three/fiber": "*",
+    "drei": "*",
+    "potree-core": "*",
+    "@mui/material": "*",
+    "@emotion/react": "*",
+    "@emotion/styled": "*"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite-plugin-static-copy": "^1.0.0",
+    "vite-plugin-svgr": "^4.0.0",
+    "typescript": "*",
+    "eslint": "*"
+  }
+}
